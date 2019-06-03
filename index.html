@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+	<title>Serwis informatyczny</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Wszechstronny Serwis Informatyczny">
+	<meta name="keywords" content="Serwis; Informatyka; Naprawa; Opole">
+	<meta name="author" content="Mardzin Dziony">
+	<meta name="cpyrights" content="PC-Repairment">
+	<link rel="icon" href= "favicon.ico" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href= "css/style.css">
+	<link rel="stylesheet" type="text/css" href= "css/firma.css">
+</head>
+<body>
+
+<div id="baner">
+	<embed src="baner_v0.5.swf" height="700px" width="100%"/>
+</div>
+
+<div class="menu" id="menu2">
+	<a href="index.html" style="color: red;">O Firmie</a>
+	<a href="uslugi.html">Usługi</a>
+	<a href="galeria.html">Galeria</a>
+	<a href="kontakt.html">Kontakt</a>
+</div>
+
+<div class="opis">
+		Naprawa Pprocesorów, płyt głównych, kart graficznych,<br />
+		telefonów, tabletów i inne usługi informatyczne  <br />
+		wykonywane szybko, solidnie i precyzyjnie.
+</div>
+
+	<img src="Main.png" style="margin-top:25px;">
+
+<div id="tresc">
+	Nowo powstała firma składająca się jednak z doświadczonych pracowników.
+	Dzięki ich doświadczeniu jesteśmy w stanie sprostać każdemu problemowi na jaki nasi klienci mogli natrafić.
+	<br /><br />
+	Jesteśmy przekonani, że nasi Klienci zasługują na to, aby ich otaczało to co najlepsze.
+	Dlatego obchodzimy się z waszym sprzętem ze szczególną starannością, a dzięki najnowszym techonologiom jesteśmy w stanie sprostać  wszystkiemu.
+	<br /><br /><br />
+
+		Co nas wyróżnia?
+			<ul>
+				<li>Posiadamy najnowsze oprogramowanie oraz narzędzia</li>
+				<li>Kompleksowa obsługa w zakresie serwisu informatycznego</li>
+				<li>Możemy przygotować twój sprzęt jak tylko sobie zarzyczysz</li>
+				<li>W razie nieodwracalnych usterek możemy sami dobrać Ci odpowiednie zamienniki</li>
+			</ul>
+</div>
+
+<div id="kontakt">
+	Kontakt
+		<p>
+			ul. 1 Maja 5 <br />
+			45-062 Opole <br />
+			E-mail: <a href="mailto:mardzio_business@gmail.com">mardzio_business@gmail.com</a> <br />
+			Telefon: 530 xxx 533
+		</p>
+</div>
+
+<div id="stopka">PC-Repairment - Serwis Informatyczny ©2k19</div>
+
+<div id="strzala"><a href="#baner"><img src="arrow.png" style="width:50px; height:50px;"></a></div>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu2");
+	var przyklejenie = menu.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset > przyklejenie) {
+		menu.classList.add("przyklejenie");
+	  } else {
+		menu.classList.remove("przyklejenie");
+	  }
+	}
+	</script>
+
+</body>
+</html>

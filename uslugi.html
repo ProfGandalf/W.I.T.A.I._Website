@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+	<title>Cennik usług</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Wszechstronny Serwis Informatyczny">
+	<meta name="keywords" content="Serwis; Informatyka; Naprawa; Opole">
+	<meta name="author" content="Mardzin Dziony">
+	<meta name="cpyrights" content="PC-Repairment">
+	<link rel="icon" href= "favicon.ico" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href= "css/style.css">
+	<link rel="stylesheet" type="text/css" href= "css/uslugi.css">
+</head>
+<body>
+
+<div id="baner">
+	<embed src="baner_v0.5.swf" height="700px" width="100%"/>
+</div>
+
+<div class="menu" id="menu2">
+	<a href="index.html">O Firmie</a>
+	<a href="uslugi.html" style="color: red;">Usługi</a>
+	<a href="galeria.html">Galeria</a>
+	<a href="kontakt.html">Kontakt</a>
+</div>
+
+<div id="tresc">
+
+	Cennik naszych usług. <br />
+	*Ceny mogą się zmienić zależnie od powagi usterki i czasu jaki pochłonęła naprawa* <br />
+	*Ceny jakie widzicie są jedynie proponowanymi za proste rodzaje usterek* <br />
+	<br /><br />
+	<a href="mailto:mardzio_business@gmail.com?subject=Wycena">mardzio_business@gmail.com</a> <br />
+
+	<table>
+		<tr>
+			<td class="usluga">Naprawa poszczególnych elementów komputera</td>
+			<td class="cena">300 zł</td>
+		</tr>
+
+		<tr>
+			<td class="usluga">Wymiana komponentów</td>
+			<td class="cena">50 zł</td>
+		</tr>
+
+		<tr>
+			<td class="usluga">Złożenie komputera</td>
+			<td class="cena"> 50 zł</td>
+		</tr>
+
+		<tr>
+			<td class="usluga">Naprawa telefonu</td>
+			<td class="cena">200 zł</td>
+		</tr>
+
+		<tr>
+			<td class="usluga">Naprawa tabletu</td>
+			<td class="cena">200 zł</td>
+		</tr>
+	</table>
+</div>
+
+<div id="stopka">PC-Repairment - Serwis Informatyczny ©2k19</div>
+
+<div id="strzala"><a href="#baner"><img src="arrow.png" style="width:50px; height:50px;"></a></div>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu2");
+	var przyklejenie = menu.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset > przyklejenie) {
+		menu.classList.add("przyklejenie");
+	  } else {
+		menu.classList.remove("przyklejenie");
+	  }
+	}
+	</script>
+
+</body>
+</html>
